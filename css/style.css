@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.row {
+    float: left;
+    text-align: center;
+    height: 10%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 20px;
+}
+
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.birds {
+    height:300px;
+    padding:5px;
+}
+
+.birds:hover{
+    cursor: pointer;
+}
+
+/*#backToThumbs {*/
+    /*!*display: none;*!*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*font-size: 20px;*/
+    /*cursor: pointer;*/
+    /*padding: 20px;*/
+    /*margin: -20px;*/
+/*}*/
+
+#header nav, #header nav a {
+    /*font-family: Arial,sans-serif;*/
+    /*font-weight: normal;*/
+    /*text-transform: normal;*/
+    /*font-size: 14px;*/
+    /*letter-spacing: 0px;*/
+    /*font-family: futura-pt;*/
+    /*font-weight: 400;*/
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: .06em;
+    font-size: 16px;
+}
+
+#topNav nav {
+    position: relative;
+    bottom: 0px;
+    margin-top: 0;
+    float: left;
+}
+
+#topNav {
+    position: relative;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    text-align: center;
+
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+pre, ul, ol, dl {
+    /*font-family: Helvetica,arial,sans-serif;*/
+    /*font-weight: normal;*/
+    /*line-height: 1.6em;*/
+    /*font-size: 12px;*/
+    /*letter-spacing: 0px;*/
+    font-family: europa;
+    /*font-weight: 300;*/
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 14px;
+    letter-spacing: .04em;
+    margin: 1em 0;
+}
+
+ul {
+    display: inline;
+    list-style-type: disc;
+
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+    /*padding-inline-start: 40px;*/
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    display: block;
+    font-family: europa;
+    text-align: center;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Chapman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+</head>
+<body>
+
+<!-- Header -->
+
+<div id="headerWrapper">
+    <header id="header">
+        <div id="title">
+            <h1 class="logo">Laura Chapman</h1>
+        </div>
+        <div id="topNav">
+            <nav class="main-nav dropdown-hover">
+                <ul data-content-field="navigation">
+                    <li class = "page-collection">
+                        <a href="index.html">home</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="costumes.html">costumes</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="paintings.html">paintings</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="mixedmedia.html">mixed media</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="drawings.html">drawings</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="quilts.html">quilts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+    <section id="bird-section">
+        <img class="birds" onclick="openModal();currentSlide(1)" src="img/birds_acrylic.JPG">
+        <img class="birds" onclick="openModal();currentSlide(2)" src="img/bird_stream_markers.JPG">
+        <img class="birds" onclick="openModal();currentSlide(3)" src="img/birds_big.JPG">
+    </section>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <!--<div class="numbertext">1 / 3</div>-->
+            <img class="modal-pics" src="img/birds_acrylic.JPG">
+        </div>
+
+        <div class="mySlides">
+            <!--<div class="numbertext">2 / 3</div>-->
+            <img class="modal-pics" src="img/bird_stream_markers.JPG">
+        </div>
+
+        <div class="mySlides">
+            <!--<div class="numbertext">3 / 3</div>-->
+            <img class="modal-pics" src="img/birds_big.JPG">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="control prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="control next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row" id="thumbs">
+            <div class="column">
+                <img class="demo" src="img/birds_acrylic.JPG" onclick="currentSlide(1)" alt="Birds 1">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img/bird_stream_markers.JPG" onclick="currentSlide(2)" alt="Birds 2">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img/birds_big.JPG" onclick="currentSlide(3)" alt="Birds 3">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/slideshow.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>
