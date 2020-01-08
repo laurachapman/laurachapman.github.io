@@ -16,12 +16,46 @@ body {
     padding: 32px;
 }
 
+#header {
+    padding-bottom: 20px;
+    display: block;
+}
+
+#header:before {
+    content: "";
+    display: table;
+}
+
+h1.logo {
+    display: block;
+}
+
+#logo {
+    margin-rightL 30px;
+    float: left;
+    display: block;
+}
+
+#header:after{
+    clear: both;
+}
+
+#headerWrapper{
+    position: static !important;
+    z-index: 999;
+    display: block;
+}
+
 /* Create two equal columns that floats next to each other */
 .row {
     float: left;
     text-align: center;
     height: 10%;
     padding: 10px;
+}
+
+#bird-section {
+    text-align: center;
 }
 
 .column img {
@@ -42,17 +76,6 @@ body {
 .birds:hover{
     cursor: pointer;
 }
-
-/*#backToThumbs {*/
-    /*!*display: none;*!*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /*font-size: 20px;*/
-    /*cursor: pointer;*/
-    /*padding: 20px;*/
-    /*margin: -20px;*/
-/*}*/
 
 #header nav, #header nav a {
     /*font-family: Arial,sans-serif;*/

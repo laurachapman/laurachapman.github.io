@@ -14,9 +14,12 @@
 
 <!-- Header -->
 
+<!--<div class="row">-->
+    <!---->
+<!--</div>-->
 <div id="headerWrapper">
     <header id="header">
-        <div id="title">
+        <div id="logo">
             <h1 class="logo">Laura Chapman</h1>
         </div>
         <div id="topNav">
@@ -76,14 +79,20 @@
             <img class="modal-pics" src="img/birds_big.JPG">
         </div>
 
-        <!-- Next/previous controls -->
-        <a class="control prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="control next" onclick="plusSlides(1)">&#10095;</a>
-
         <!-- Caption text -->
         <div class="caption-container">
             <p id="caption"></p>
         </div>
+
+        <!-- Next/previous controls -->
+        <div id="simpleControls">
+            <a class="control prev-slide" onclick="plusSlides(-1)">prev</a>
+            /
+            <a class="control next-slide" onclick="plusSlides(1)">next</a>
+        </div>
+
+        <!--<a class="control prev" onclick="plusSlides(-1)">&#10094;</a>-->
+        <!--<a class="control next" onclick="plusSlides(1)">&#10095;</a>-->
 
         <!-- Thumbnail image controls -->
         <div class="row" id="thumbs">

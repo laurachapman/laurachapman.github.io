@@ -34,3 +34,16 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+    e = e || window.event;
+
+    if (e.code === 'ArrowLeft') {
+        plusSlides(-1)
+    }
+    else if (e.code === 'ArrowRight') {
+        plusSlides(1)
+    }
+}
