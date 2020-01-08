@@ -30,6 +30,8 @@
     width: 90%;
     /*max-width: 1200px;*/
     max-width: 100%;
+    /*max-height: 100%;*/
+    /*max-height: 100%;*/
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -121,7 +123,7 @@
 img.demo {
     opacity: 0.6;
     height: 70px;
-    padding: 10px
+    padding: 5px;
     /*width: 10%;*/
 }
 
@@ -146,6 +148,7 @@ img.hover-shadow {
     text-align: center;
     /*height: 100%;*/
     max-height: 600px;
+    /*max-height: 50%;*/
     max-width: 100%;
     height: auto;
     width: auto\9;

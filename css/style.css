@@ -8,7 +8,13 @@ html, body{
 
 body {
     margin: 0;
-    font-family: Arial;
+    /*font-family: Arial,sans-serif;*/
+    font-weight: normal;
+    text-transform: normal;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: futura-pt;
+    font-style: normal;
 }
 
 .header {
@@ -26,13 +32,15 @@ body {
     display: table;
 }
 
-h1.logo {
-    display: block;
-}
+/*h1.logo {*/
+    /*display: block;*/
+/*}*/
 
 #logo {
-    margin-rightL 30px;
-    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    /*float: left;*/
     display: block;
 }
 
@@ -54,13 +62,13 @@ h1.logo {
     padding: 10px;
 }
 
-#bird-section {
+#medium-section {
     text-align: center;
 }
 
-.column img {
-    margin-top: 20px;
-}
+/*.column img {*/
+    /*margin-top: 20px;*/
+/*}*/
 
 .column:after {
     content: "";
@@ -68,12 +76,17 @@ h1.logo {
     clear: both;
 }
 
-.birds {
-    height:300px;
+.med-pics {
+    max-width: 90%;
+    /*max-height: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    max-height: 300px;
     padding:5px;
+    text-align: center;
 }
 
-.birds:hover{
+.med-pics:hover{
     cursor: pointer;
 }
 
@@ -99,6 +112,9 @@ h1.logo {
 }
 
 #topNav {
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+    padding: 5px;
     position: relative;
 }
 
@@ -111,13 +127,26 @@ nav ul, nav ol {
     /*padding: 0;*/
 }
 
+
+/*newly added*/
+nav ul, nav ol {
+    margin: 0;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
 pre, ul, ol, dl {
     /*font-family: Helvetica,arial,sans-serif;*/
     /*font-weight: normal;*/
     /*line-height: 1.6em;*/
     /*font-size: 12px;*/
     /*letter-spacing: 0px;*/
-    font-family: europa;
+    /*font-family: europa;*/
     /*font-weight: 300;*/
     font-style: normal;
     line-height: 1.8em;
@@ -139,15 +168,119 @@ ul {
 
 li{
     display: inline;
-    padding: 10px;
+    padding: 6px;
+    margin-right: 7px;
+    margin-left: 4px;
 }
 
 a {
     color: black;
 }
 
-h1 {
-    display: block;
-    font-family: europa;
-    text-align: center;
+/*h1 {*/
+    /*display: block;*/
+    /*font-family: europa;*/
+    /*text-align: center;*/
+/*}*/
+
+#mobileMenuLink {
+    display: none;
+    margin: 15px 0 0;
 }
+
+#mobileNav {
+    display: none;
+}
+
+nav {
+    display: block;
+}
+
+#mobileNav {
+    height: 0;
+    overflow: hidden;
+}
+
+#mobileNav .main-nav {
+    margin-right: 0;
+}
+
+#section-title{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+
+#caption{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #logo {
+        /*float: inherit;*/
+        width: 100%;
+        margin-right: 0 !important;
+        text-align: center;
+    }
+
+    #section-title {
+        display: block;
+    }
+
+    #mobileMenuLink {
+        margin: 0;
+        display: block;
+        padding: 0 0 10px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    #mobileMenuLink a {
+        cursor: pointer;
+        display: block;
+        margin: 0;
+        font-size: 16px !important;
+        color: #000;
+    }
+
+    #mobileNav {
+        display: block;
+        background: #f0f0f0;
+        margin: 0 0 15px;
+    }
+
+    #mobileNav nav ul li {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 2px;
+        float: none !important;
+    }
+
+    #mobileNav li a:after {
+        display: none !important;
+    }
+
+    #header #topNav {
+        display: none;
+    }
+
+    .menu-open {
+        height: 308px;
+    }
+    .menu-closed {
+        height: 0px;
+    }
+
+    #header {
+        padding-bottom: 0px;
+    }
+
+    .med-pics {
+        padding:3px;
+}
+
+/*@media only screen and (max-width: 800px)*/

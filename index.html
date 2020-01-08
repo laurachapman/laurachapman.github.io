@@ -12,6 +12,39 @@
 </head>
 <body>
 
+<!--mobile nav-->
+<div id="mobileNav" class="menu-closed">
+    <div class="wrapper">
+        <nav class="main-nav mobile-nav">
+            <ul>
+                <li class = "page-collection">
+                    <a href="index.html">home</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="costumes.html">costumes</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="paintings.html">paintings</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="mixedmedia.html">mixed media</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="drawings.html">drawings</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="quilts.html">quilts</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div id="mobileMenuLink" onclick="openMenu()" class>
+    <a>Menu</a>
+</div>
+
+
 <!-- Header -->
 
 <!--<div class="row">-->
@@ -52,10 +85,14 @@
 
 <!-- Photo Grid -->
 <div class="row">
-    <section id="bird-section">
-        <img class="birds" onclick="openModal();currentSlide(1)" src="img/birds_acrylic.JPG">
-        <img class="birds" onclick="openModal();currentSlide(2)" src="img/bird_stream_markers.JPG">
-        <img class="birds" onclick="openModal();currentSlide(3)" src="img/birds_big.JPG">
+    <div id="section-title">
+        <h2 style="font-size: 20px">Birds</h2>
+    </div>
+
+    <section id="medium-section">
+        <img class="med-pics" onclick="openModal();currentSlide(1)" src="img/birds_acrylic.JPG">
+        <img class="med-pics" onclick="openModal();currentSlide(2)" src="img/bird_stream_markers.JPG">
+        <img class="med-pics" onclick="openModal();currentSlide(3)" src="img/birds_big.JPG">
     </section>
 </div>
 
@@ -91,20 +128,17 @@
             <a class="control next-slide" onclick="plusSlides(1)">next</a>
         </div>
 
-        <!--<a class="control prev" onclick="plusSlides(-1)">&#10094;</a>-->
-        <!--<a class="control next" onclick="plusSlides(1)">&#10095;</a>-->
-
         <!-- Thumbnail image controls -->
         <div class="row" id="thumbs">
-            <div class="column">
+            <div class="column" id="thumb1">
                 <img class="demo" src="img/birds_acrylic.JPG" onclick="currentSlide(1)" alt="Birds 1">
             </div>
 
-            <div class="column">
+            <div class="column" id="thumb2">
                 <img class="demo" src="img/bird_stream_markers.JPG" onclick="currentSlide(2)" alt="Birds 2">
             </div>
 
-            <div class="column">
+            <div class="column" id="thumb3">
                 <img class="demo" src="img/birds_big.JPG" onclick="currentSlide(3)" alt="Birds 3">
             </div>
         </div>
@@ -114,6 +148,7 @@
 
 <script src="js/slideshow.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/mobilenav.js"></script>
 
 </body>
 </html>
