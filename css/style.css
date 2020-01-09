@@ -266,6 +266,10 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
+    #medium-section {
+        padding: 0px;
+    }
+
     #welcome-title {
         display: none;
     }
