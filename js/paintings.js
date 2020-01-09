@@ -1,0 +1,1 @@
+generateContent("paintings", "painting", 16);

@@ -2,9 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>paintings</title>
+    <title>Laura Chapman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
 </head>
 <body>
+
+<!--mobile nav-->
+<div id="mobileNav" class="menu-closed">
+    <div class="wrapper">
+        <nav class="main-nav mobile-nav">
+            <ul>
+                <li class = "page-collection">
+                    <a href="home.html">home</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="paintings.html">paintings</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="boxes.html">boxes</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="sketches.html">sketches</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="costumes.html">costumes</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="quilts.html">quilts</a>
+                </li>
+                <li class = "page-collection">
+                    <a href="about.html">about</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div id="mobileMenuLink" onclick="openMenu()" class>
+    <a>Menu</a>
+</div>
+
+
+<!-- Header -->
+
+<!--<div class="row">-->
+<!---->
+<!--</div>-->
+<div id="headerWrapper">
+    <header id="header">
+        <div id="logo">
+            <h1 class="logo">Laura Chapman</h1>
+        </div>
+        <div id="topNav">
+            <nav class="main-nav dropdown-hover">
+                <ul id="mynav" data-content-field="navigation">
+                    <li class = "page-collection">
+                        <a href="home.html">home</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="paintings.html">paintings</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="boxes.html">boxes</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="sketches.html">sketches</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="costumes.html">costumes</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="quilts.html">quilts</a>
+                    </li>
+                    <li class = "page-collection">
+                        <a href="about.html">about</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+    <div id="section-title">
+        <h2 style="font-size: 20px">Paintings</h2>
+    </div>
+
+    <section id="medium-section">
+        <!--create these programmatically-->
+    </section>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div id="modal-content" class="modal-content">
+
+        <div id="slide-area">
+            <!--put the slides in here programmatically -->
+        </div>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Next/previous controls -->
+        <div id="simpleControls">
+            <a class="control prev-slide" onclick="plusSlides(-1)">prev</a>
+            /
+            <a class="control next-slide" onclick="plusSlides(1)">next</a>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row" id="thumbs">
+
+            <!--create these programmatically-->
+
+        </div>
+
+    </div>
+</div>
+
+<!--<script src="js/navbar.js"></script>-->
+<script src="js/generatecontent.js"></script>
+<script src="js/paintings.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/mobilenav.js"></script>
 
 </body>
 </html>

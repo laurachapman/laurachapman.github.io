@@ -144,7 +144,7 @@ nav ul, nav ol {
 }
 
 .active-menu, .page-collection:hover {
-    background-color: #666;
+    background-color: #eee;
     color: white;
 }
 
@@ -225,7 +225,51 @@ nav {
     margin-bottom: 5px;
 }
 
+#about-me, #contact-info {
+    /*max-width: 500px;*/
+    padding: 50px;
+}
+
+#about-picture {
+    width: 300px;
+}
+
+#about-description, #contact-info {
+    text-align: left;
+    letter-spacing: 1px;
+
+}
+
+.about-titles {
+    font-size: 15px;
+    display: block;
+}
+
+.nofloat {
+    float: none;
+    letter-spacing: 1px;
+}
+
+#welcome-title {
+    font-size: 20px;
+    margin-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /*text-align: center;*/
+}
+
+
+#pic-of-me {
+    /*text-align: center;*/
+    max-height: 250px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 600px) {
+    #welcome-title {
+        display: none;
+    }
+
 
     #logo {
         /*float: inherit;*/
@@ -277,7 +321,7 @@ nav {
     }
 
     .menu-open {
-        height: 308px;
+        height: 400px;
     }
     .menu-closed {
         height: 0px;
