@@ -13,6 +13,11 @@ function plusSlides(n) {
     // var thumbnail = document.getElementById("thumb" + slideIndex);
     // thumbnail.style.opacity = "0.6";
 
+    //reset the previous one
+    // var thumbnail = document.getElementById("thumb" + n);
+    // console.log("thumbnail:", thumbnail);
+    // thumbnail.setAttribute("style", "border: none");
+
     showSlides(slideIndex += n);
 }
 
@@ -26,9 +31,6 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
 
-    // var thumbnail = document.getElementById("thumb" + n);
-    // thumbnail.style.opacity = "1";
-
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -36,9 +38,12 @@ function showSlides(n) {
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].setAttribute("style", "opacity: 0.6");
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].setAttribute("style", "opacity: 1")
+
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
 

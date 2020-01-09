@@ -128,12 +128,21 @@ img.demo {
 }
 
 #thumbs{
+    /*display: flex;*/
+    justify-content: space-around;
     text-align: center;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.active {
+    opacity: 1;
 }
 
 .active,
 .demo:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 img.hover-shadow {

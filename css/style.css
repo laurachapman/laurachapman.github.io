@@ -49,6 +49,7 @@ body {
 }
 
 #headerWrapper{
+    margin-left: 20px;
     position: static !important;
     z-index: 999;
     display: block;
@@ -63,6 +64,8 @@ body {
 }
 
 #medium-section {
+    padding: 20px;
+}
     text-align: center;
 }
 
@@ -138,6 +141,11 @@ nav ul, nav ol {
     list-style-image: none;
     margin: 0;
     padding: 0;
+}
+
+.active-menu, .page-collection:hover {
+    background-color: #666;
+    color: white;
 }
 
 pre, ul, ol, dl {
