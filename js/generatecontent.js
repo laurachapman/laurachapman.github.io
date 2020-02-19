@@ -2,12 +2,13 @@
 function generateContent(folder, namestem, num){
     for (var i=1; i<(num+1); i++){
 
-        var image_source = "pictures/" + folder + "/" + namestem + i + ".jpg";
+        var image_source_big = "pictures/" + folder + "/" + namestem + i + ".jpg";
+        var image_source_small = "pictures/" + folder + "/" + namestem + i + "_lowres.jpg";
 
         // <!--<img class="med-pics" onclick="openModal();currentSlide(1)" src="img/birds_acrylic.JPG">-->
 
         var med_elem = document.createElement("img");
-        med_elem.setAttribute("src", image_source);
+        med_elem.setAttribute("src", image_source_small);
         med_elem.setAttribute("class", "med-pics");
         med_elem.setAttribute("onclick", "openModal(); currentSlide(" + i + ")");
         document.getElementById("medium-section").appendChild(med_elem);
@@ -17,7 +18,7 @@ function generateContent(folder, namestem, num){
 // <!--</div>-->
 
         var modal_elem = document.createElement("img");
-        modal_elem.setAttribute("src", image_source);
+        modal_elem.setAttribute("src", image_source_big);
         modal_elem.setAttribute("class", "modal-pics");
 
         var slide_div = document.createElement("div");
@@ -31,7 +32,7 @@ function generateContent(folder, namestem, num){
 // <!--</div>-->
 
         var thumb_elem = document.createElement("img");
-        thumb_elem.setAttribute("src", image_source);
+        thumb_elem.setAttribute("src", image_source_small);
         thumb_elem.setAttribute("class", "demo");
         thumb_elem.setAttribute("onclick", "currentSlide(" + i + ")");
         thumb_elem.setAttribute("alt", namestem + " " + i);
