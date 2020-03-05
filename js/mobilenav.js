@@ -10,7 +10,7 @@ function openMenu(){
 
     if (open_nav) {
         mobile_nav.className = "menu-open";
-        mobile_nav.style.height = "270px";
+        mobile_nav.style.height = "300px";
     }
     else{
         mobile_nav.className = "menu-closed";
