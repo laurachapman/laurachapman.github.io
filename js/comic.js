@@ -1,0 +1,1 @@
+generateComic("comic", "comic", 3);

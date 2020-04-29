@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Chapman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/comicstyle.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+</head>
+<body>
+
+<!-- Header -->
+
+<!--<div class="row">-->
+<!---->
+<!--</div>-->
+<div id="headerWrapper">
+    <header id="header">
+        <div id="logo">
+            <h1 class="logo">Laura Chapman</h1>
+            <h2 style="font-size: 20px">Quarantine Comic</h2>
+        </div>
+    </header>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+    <!--<div id="section-title">-->
+        <!--<h2 style="font-size: 20px">Quarantine Comic</h2>-->
+    <!--</div>-->
+
+    <section id="medium-section">
+        <!--create these programmatically-->
+    </section>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div id="modal-content" class="modal-content">
+
+        <div id="slide-area">
+            <!--put the slides in here programmatically -->
+        </div>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Next/previous controls -->
+        <div id="simpleControls">
+            <a class="control prev-slide" onclick="plusSlides(-1)">prev</a>
+            /
+            <a class="control next-slide" onclick="plusSlides(1)">next</a>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row" id="thumbs">
+
+            <!--create these programmatically-->
+
+        </div>
+
+    </div>
+</div>
+
+<!--<script src="js/navbar.js"></script>-->
+<script src="js/generateComic.js"></script>
+<script src="js/comic.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/mobilenav.js"></script>
+
+</body>
+</html>

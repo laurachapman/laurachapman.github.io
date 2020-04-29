@@ -52,10 +52,10 @@ document.onkeydown = checkKey;
 function checkKey(e) {
     e = e || window.event;
 
-    if (e.code === 'ArrowLeft') {
+    if (e.code === 'ArrowLeft' || e.code ==='ArrowDown') {
         plusSlides(-1)
     }
-    else if (e.code === 'ArrowRight') {
+    else if (e.code === 'ArrowRight' || e.code === 'ArrowUp') {
         plusSlides(1)
     }
 }
