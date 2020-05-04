@@ -1,8 +1,9 @@
 
 function generateComic(folder, namestem, num){
     for (var i=1; i<(num+1); i++){
+        var i_for_images = i-1
 
-        var image_source_big = "pictures/" + folder + "/" + namestem + i + ".png";
+        var image_source_big = "pictures/" + folder + "/" + namestem + i_for_images + ".png";
         // var image_source_small = "pictures/" + folder + "/" + namestem + i + "_lowres.jpg";
 
         // <!--<img class="med-pics" onclick="openModal();currentSlide(1)" src="img/birds_acrylic.JPG">-->
@@ -35,7 +36,7 @@ function generateComic(folder, namestem, num){
         thumb_elem.setAttribute("src", image_source_big);
         thumb_elem.setAttribute("class", "demo");
         thumb_elem.setAttribute("onclick", "currentSlide(" + i + ")");
-        thumb_elem.setAttribute("alt", "quarantine comic "+ i + "/" + num);
+        thumb_elem.setAttribute("alt", i + "/" + num);
 
         var thumb_div = document.createElement("div");
         thumb_div.className = "column";

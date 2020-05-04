@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/comicstyle.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/comicmodal.css">
 
 </head>
 <body>
@@ -20,8 +20,14 @@
 <div id="headerWrapper">
     <header id="header">
         <div id="logo">
-            <h1 class="logo">Laura Chapman</h1>
-            <h2 style="font-size: 20px">Quarantine Comic</h2>
+            <div class="nofloat" id="laura-pic">
+                <img id="laura-chapman" src="pictures/laurachapman.png">
+            </div>
+            <div class="nofloat" id="quarantine-pic">
+                <img id="quarantine-comic" src="pictures/quarantine.png">
+            </div>
+            <!--<h1 class="logo">Laura Chapman</h1>-->
+            <!--<h2 style="font-size: 20px">Quarantine Comic</h2>-->
         </div>
     </header>
 </div>
@@ -30,6 +36,12 @@
 <div class="row">
     <!--<div id="section-title">-->
         <!--<h2 style="font-size: 20px">Quarantine Comic</h2>-->
+    <!--</div>-->
+    <!--<div class="nofloat" id="laura-pic">-->
+        <!--<img id="laura-chapman" src="pictures/laurachapman.png">-->
+    <!--</div>-->
+    <!--<div class="nofloat" id="quarantine-pic">-->
+        <!--<img id="quarantine-comic" src="pictures/quarantine.png">-->
     <!--</div>-->
 
     <section id="medium-section">
@@ -41,6 +53,18 @@
 <div id="myModal" class="modal">
     <span class="close cursor" onclick="closeModal()">&times;</span>
     <div id="modal-content" class="modal-content">
+
+        <div id="title-area">
+            <div class="column" id="laura-div-small">
+                <img id="laura-chapman-small" src="pictures/laurachapman.png">
+            </div>
+            <div class="column" id="quarantine-div-small">
+                <img id="quarantine-comic-small" src="pictures/quarantine.png">
+            </div>
+            <!--<div class="column" id="line">-->
+                <!--<img id="line-picture" src="pictures/line.png">-->
+            <!--</div>-->
+        </div>
 
         <div id="slide-area">
             <!--put the slides in here programmatically -->
