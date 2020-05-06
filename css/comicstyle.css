@@ -63,6 +63,11 @@ body {
 
 }
 
+.leave-comment {
+    text-align: center;
+    padding: 30px;
+}
+
 /*#line {*/
     /*text-align: center;*/
     /*float: center;*/
