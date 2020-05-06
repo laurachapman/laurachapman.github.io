@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb696d49-9ff7-456b-97c3-daf3a653aeb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/comic.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/comic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_33.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_37.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/comic/english_comic_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/comic/english_comic_55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comic.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3590" />
-          <entry key="html" value="4663" />
+          <entry key="html" value="4763" />
           <entry key="js" value="4472" />
           <entry key="txt" value="24" />
         </counts>
@@ -96,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3590" />
-          <entry key="HTML" value="4663" />
+          <entry key="HTML" value="4763" />
           <entry key="JavaScript" value="4472" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
@@ -123,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+            <state relative-caret-position="267">
+              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -141,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/comic.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -256,8 +212,8 @@
         <option value="$PROJECT_DIR$/css/comicmodal.css" />
         <option value="$PROJECT_DIR$/js/generateComic.js" />
         <option value="$PROJECT_DIR$/css/comicstyle.css" />
-        <option value="$PROJECT_DIR$/comic.html" />
         <option value="$PROJECT_DIR$/js/comic.js" />
+        <option value="$PROJECT_DIR$/comic.html" />
       </list>
     </option>
   </component>
@@ -360,7 +316,7 @@
       <workItem from="1582139433304" duration="1256000" />
       <workItem from="1583435016919" duration="935000" />
       <workItem from="1588119715836" duration="5436000" />
-      <workItem from="1588779779841" duration="84000" />
+      <workItem from="1588779779841" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="added beginning of comic">
       <created>1588121010443</created>
@@ -373,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41279000" />
+    <option name="totallyTimeSpent" value="41549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="326" y="50" width="982" height="777" extended-state="0" />
@@ -608,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/comic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -622,6 +571,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
         </state>
       </provider>
     </entry>
