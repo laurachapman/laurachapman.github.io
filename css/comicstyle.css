@@ -40,8 +40,37 @@ body {
 }
 
 #quarantine-comic {
-    width: 30%;
+     width: 30%;
+     max-width: 300px;
+ }
+
+#parts {
+    text-align: center;
+}
+
+#part {
+    /*width: 30%;*/
+    padding: 20px;
     max-width: 300px;
+}
+
+#part-pic {
+    /*width: 20%;*/
+    max-width: 200px;
+}
+
+#home {
+    width: 15%;
+    max-width: 100px;
+    padding: 20px;
+}
+
+#controls {
+    width: 50%;
+}
+
+#control {
+    width: 50%;
 }
 
 #laura-chapman-small {

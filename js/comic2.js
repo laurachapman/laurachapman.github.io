@@ -16,4 +16,4 @@
 // med_elem.setAttribute("onclick", "openModal(); currentSlide(" + i + ")");
 // document.getElementById("medium-section").appendChild(med_elem);
 
-generateComic("comic/part1", "english_comic_", 49);
+generateComic("comic/part2", "comic_part_2_", 44);
