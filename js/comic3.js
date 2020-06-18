@@ -1,0 +1,1 @@
+generateComic("comic/part3", "comic_part_3_", 60);
