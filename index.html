@@ -6,144 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_mainsite.css">
     <link rel="stylesheet" href="css/modal.css">
 
 </head>
 <body>
 
-<!--mobile nav-->
-<div id="mobileNav" class="menu-closed">
-    <div class="wrapper">
-        <nav class="main-nav mobile-nav">
-            <ul>
-                <li class = "page-collection">
-                    <a href="index.html">home</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="paintings.html">paintings</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="boxes.html">boxes</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="sketches.html">sketches</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="costumes.html">costumes</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="quilts.html">quilts</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="graphics.html">graphic design</a>
-                </li>
-                <li class = "page-collection">
-                    <a href="about.html">about</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</div>
-
-<div id="mobileMenuLink" onclick="openMenu()" class>
-    <a>Menu</a>
-</div>
-
-
-<!-- Header -->
-
-<!--<div class="row">-->
-<!---->
-<!--</div>-->
 <div id="headerWrapper">
     <header id="header">
         <div id="logo">
-            <h1 class="logo">Laura Chapman</h1>
+            <!--<div class="row">-->
+                <!--<img id="laura-chapman" src="pictures/medrawing.png" style="width:60px;">-->
+                <!--<img id="laura-chapman" src="pictures/laurachapman.png">-->
+
+            <!--</div>-->
+
+            <div class="nofloat" id="laura-pic-2">
+                <img id="laura-chapman" src="pictures/medrawing.png" style="width:70px;">
+            </div>
+            <div class="nofloat" id="laura-pic">
+                <img id="laura-chapman" src="pictures/laurachapman.png">
+            </div>
         </div>
-        <div id="topNav">
-            <nav class="main-nav dropdown-hover">
-                <ul id="mynav" data-content-field="navigation">
-                    <li class = "page-collection">
-                        <a href="index.html">home</a>
+
+        <div id="navBlock" role="navigation">
+            <nav class="main-nav" data-content-field="navigation">
+                <ul>
+                    <li class="page-collection">
+                        <a href="index.html">About</a>
                     </li>
-                    <li class = "page-collection">
-                        <a href="paintings.html">paintings</a>
+                    <li class="page-collection">
+                        <a href="projects.html">Projects</a>
                     </li>
-                    <li class = "page-collection">
-                        <a href="boxes.html">boxes</a>
-                    </li>
-                    <li class = "page-collection">
-                        <a href="sketches.html">sketches</a>
-                    </li>
-                    <li class = "page-collection">
-                        <a href="costumes.html">costumes</a>
-                    </li>
-                    <li class = "page-collection">
-                        <a href="quilts.html">quilts</a>
-                    </li>
-                    <li class = "page-collection">
-                        <a href="graphics.html">graphic design</a>
-                    </li>
-                    <li class = "page-collection">
-                        <a href="about.html">about</a>
-                    </li>
+                    <!--<li class="page-collection">-->
+                        <!--<a href="index.html">Resume</a>-->
+                    <!--</li>-->
                 </ul>
             </nav>
         </div>
     </header>
 </div>
 
-<h2 id="welcome-title">Welcome to my portfolio!</h2>
+<div class="about-content">
+    <div class="row">
 
-<!-- Photo Grid -->
+        <div class="column middle">
+            <h4>Hi, I'm Laura! TINY CHANGE HERE</h4>
+    <br>
+            <p class="hello-content">
+                Welcome to my website! A bit about me:
+            </p>
+            <p class="hello-content">
+               I grew up in Westchester, New York in a small town called Pleasantville.
+                <!--where I spent a lot of time building with Legos, sewing, painting, and playing tennis.-->
+                <!--In high school, I organized a number of community projects, including a-->
+                <!--<a href="https://pleasantvilleschools.org/apps/news/show_news.jsp?REC_ID=350616&id=1">mural at the-->
+                    <!--public library</a>.-->
+            </p>
+            <p class="hello-content">
+                I went to Harvard from 2016-2020, during which I changed my major twice,
+                worked as a teaching assistant for several Computer Science classes,
+                designed costumes for six students shows, and organized overnight trips with the Jewish Outing Club.
+                I also completed internships at the Dean of Students' Office, the Harvard-Smithsonian Center for Astrophyics, and
+                Capital One.
+            </p>
+            <p class="hello-content">
+                I've spent a lot of my "Extra Time Because of Covid-19" doing various projects on and off my computer.
+                I created this semi-personal, semi-professional
+                site to gather them all in one place with the other things I've done.
+            </p>
+
+
+        </div>
+
+        <div class="column left">
+            <!--<div>-->
+                <!--<img src='pictures/ofme/headshot.JPG' class="about_pics">-->
+            <!--</div>-->
+            <div>
+                <img src='pictures/ofme/harvard.jpg' class="about_pics">
+            </div>
+        </div>
+
+        <!--<div class="column right">-->
+            <!--<div>-->
+                <!--<img src='pictures/ofme/hoop.JPG' class="about_pics">-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<img src='pictures/ofme/harvard.jpg' class="about_pics">-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+
 <div class="row">
-    <div id="section-title">
-        <h2 style="font-size: 20px">Featured work</h2>
-    </div>
-
-    <section id="medium-section">
-        <!--create these programmatically-->
-    </section>
-</div>
-
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div id="modal-content" class="modal-content">
-
-        <div id="slide-area">
-            <!--put the slides in here programmatically -->
-        </div>
-
-        <!-- Caption text -->
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
-
-        <!-- Next/previous controls -->
-        <div id="simpleControls">
-            <a class="control prev-slide" onclick="plusSlides(-1)">prev</a>
-            /
-            <a class="control next-slide" onclick="plusSlides(1)">next</a>
-        </div>
-
-        <!-- Thumbnail image controls -->
-        <div class="row" id="thumbs">
-
-            <!--create these programmatically-->
-
-        </div>
-
+    <div class="column social-media">
+        <p>
+            <a href="https://www.linkedin.com/in/laurachapman/">LinkedIn    </a>
+        </p>
+        <p>
+            <a href="https://github.com/laurachapman">Github    </a>
+        </p>
+        <p>
+            <a href="https://www.instagram.com/thelchapman.art/">Instagram</a>
+        </p>
     </div>
 </div>
 
-<!--<script src="js/navbar.js"></script>-->
-<script src="js/generatecontent.js"></script>
-<script src="js/featured.js"></script>
-<script src="js/slideshow.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/mobilenav.js"></script>
+
+
+
+<!--<div id="about-me">-->
+    <!--<div class="nofloat" id="about-picture">-->
+        <!--<img id="pic-of-me" src="pictures/mecrop.jpg">-->
+    <!--</div>-->
+
+    <!--<div class="nofloat" id="about-description">-->
+        <!--<div class="about-titles">-->
+            <!--<h2> About me</h2>-->
+        <!--</div>-->
+        <!--<p>-->
+            <!--I study computer science at Harvard (class of 2020). <br>-->
+            <!--I coded this website with my own ten fingers. <br>-->
+            <!--I am originally from New York. <br>-->
+        <!--</p>-->
+    <!--</div>-->
+
+    <!--<div class="nofloat">-->
+        <!--email: lchapman@college.harvard.edu-->
+    <!--</div>-->
+    <!--<div class="nofloat">-->
+        <!--linkedin:-->
+        <!--<a href="https://www.linkedin.com/in/laurachapman/">https://www.linkedin.com/in/laurachapman/</a>-->
+    <!--</div>-->
+    <!--<div class="nofloat">-->
+        <!--instagram:-->
+        <!--<a href="https://www.instagram.com/thelchapman.art/">@thelchapman.art</a>-->
+
+    <!--</div>-->
+<!--</div>-->
+
 
 </body>
 </html>
