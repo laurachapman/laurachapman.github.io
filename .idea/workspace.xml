@@ -1,21 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb696d49-9ff7-456b-97c3-daf3a653aeb6" name="Default Changelist" comment="">
+    <list default="true" id="fb696d49-9ff7-456b-97c3-daf3a653aeb6" name="Default Changelist" comment="tiny test change">
+      <change afterPath="$PROJECT_DIR$/comic_part_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/comic4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/ofme/headshot2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/paintings/painting21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/paintings/painting21_lowres.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/part4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/boxes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comic.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comic_part_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic_part_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comic_part_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic_part_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comic_part_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic_part_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/costumes.html" beforeDir="false" afterPath="$PROJECT_DIR$/costumes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphics.html" beforeDir="false" afterPath="$PROJECT_DIR$/graphics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintings.html" beforeDir="false" afterPath="$PROJECT_DIR$/paintings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quilts.html" beforeDir="false" afterPath="$PROJECT_DIR$/quilts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches.html" beforeDir="false" afterPath="$PROJECT_DIR$/sketches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/paintings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/paintings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,12 +151,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="170" />
+          <entry key="js" value="11" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="170" />
+          <entry key="JavaScript" value="11" />
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="js" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -107,17 +182,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" selection-start-line="55" selection-end-line="67" selection-end-column="6" />
+            <state relative-caret-position="194">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comic_part_4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/comic4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="54" selection-start-column="54" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -125,11 +218,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="968">
+              <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -140,8 +233,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="236">
+              <caret line="54" column="81" selection-start-line="54" selection-start-column="81" selection-end-line="54" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -150,28 +243,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style_mainsite.css">
+        <entry file="file://$PROJECT_DIR$/js/paintings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -260,7 +335,6 @@
         <option value="$PROJECT_DIR$/js/quilts.js" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/js/featured.js" />
-        <option value="$PROJECT_DIR$/js/paintings.js" />
         <option value="$PROJECT_DIR$/js/generatecontent.js" />
         <option value="$PROJECT_DIR$/js/graphics.js" />
         <option value="$PROJECT_DIR$/js/sketches.js" />
@@ -285,11 +359,14 @@
         <option value="$PROJECT_DIR$/comic_part_3.html" />
         <option value="$PROJECT_DIR$/comic_part_2.html" />
         <option value="$PROJECT_DIR$/comic_part_1.html" />
-        <option value="$PROJECT_DIR$/comic.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/css/style_mainsite.css" />
-        <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/comic.html" />
+        <option value="$PROJECT_DIR$/js/comic4.js" />
+        <option value="$PROJECT_DIR$/comic_part_4.html" />
+        <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/js/paintings.js" />
       </list>
     </option>
   </component>
@@ -310,7 +387,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="portfolio_website_newer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_website_newer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_website_newer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_website_newer" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -356,7 +451,7 @@
       <workItem from="1594405389810" duration="1914000" />
       <workItem from="1594409087363" duration="5314000" />
       <workItem from="1596151343667" duration="152000" />
-      <workItem from="1596151835545" duration="17000" />
+      <workItem from="1596151835545" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="added beginning of comic">
       <created>1588121010443</created>
@@ -365,19 +460,27 @@
       <option name="project" value="LOCAL" />
       <updated>1588121010443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tiny test change">
+      <created>1596151882854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596151882854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56825000" />
+    <option name="totallyTimeSpent" value="58700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="319" y="43" width="1087" height="777" extended-state="0" />
+    <frame x="262" y="37" width="1087" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22232646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22232646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -421,7 +524,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added beginning of comic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added beginning of comic" />
+    <MESSAGE value="tiny test change" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiny test change" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/slideshow.js">
@@ -452,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/paintings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -627,23 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="67" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style_mainsite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -686,22 +766,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="968">
+          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/comic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="194">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/comic4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comic_part_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="54" column="81" selection-start-line="54" selection-start-column="81" selection-end-line="54" selection-end-column="81" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/paintings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

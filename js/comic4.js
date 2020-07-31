@@ -1,0 +1,1 @@
+generateComic("comic/part4", "comic_part_4_safer_", 62);
