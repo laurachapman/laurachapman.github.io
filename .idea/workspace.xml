@@ -1,81 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb696d49-9ff7-456b-97c3-daf3a653aeb6" name="Default Changelist" comment="tiny test change">
-      <change afterPath="$PROJECT_DIR$/comic_part_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/comic4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/comic/part4/comic_part_4_safer_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/ofme/headshot2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/paintings/painting21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/paintings/painting21_lowres.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/part4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comic.html" beforeDir="false" afterPath="$PROJECT_DIR$/comic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/paintings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/paintings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-    </list>
+    <list default="true" id="fb696d49-9ff7-456b-97c3-daf3a653aeb6" name="Default Changelist" comment="tiny test change" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -145,6 +71,7 @@
     <session id="1545823961">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -209,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="7">
+              <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -451,7 +378,7 @@
       <workItem from="1594405389810" duration="1914000" />
       <workItem from="1594409087363" duration="5314000" />
       <workItem from="1596151343667" duration="152000" />
-      <workItem from="1596151835545" duration="1892000" />
+      <workItem from="1596151835545" duration="2091000" />
     </task>
     <task id="LOCAL-00001" summary="added beginning of comic">
       <created>1588121010443</created>
@@ -471,16 +398,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58700000" />
+    <option name="totallyTimeSpent" value="58899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="37" width="1087" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22232646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22232646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -816,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="7">
+          <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

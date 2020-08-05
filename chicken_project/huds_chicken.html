@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HUDS Chicken</title>
+
+	<link rel="stylesheet" href="chicken_css/bootstrap.min.css">
+	<link rel="stylesheet" href="chicken_css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row heading">
+			<div class="col-md-12">
+				<h1><span>Which HUDS chicken dish is most loved?</span></h1>
+				<h4><span>An Investigation by Laura Chapman</span></h4>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text" id="intro">
+				Red spice chicken is perhaps the most notorious HUDS (Harvard University Dining Services)
+				entree. But do students actually like it more than other chicken dishes? I decided to see how red spice chicken stacked up
+				against its poultry peers.
+				<br><br>
+				I made a
+				<a href="https://forms.gle/1yQBUTW3sttGboFc7">Google form</a>
+				asking students to rank their preferences among all the HUDS chicken
+				dishes I could think of. The form started with 8 chicken dishes and expanded to
+				13 after people commented on the form about chicken dishes that were missing from the survey.
+				Participants were not required to rank every single dish.
+				<br><br>
+				The form was sent out over several house email lists and posted on the
+				<a href="https://www.facebook.com/groups/1253567138064928">Harvard meme page</a>. In a couple days there were
+				over 130 responses.
+				<br><br>
+				The first visualization shows the number of votes for each chicken dish grouped by ranking.
+				Use the drop-down menu to show just the top 7 (determined by the number of first choice votes).
+				<br><br>
+				Chicken parmesan was the most popular first choice, followed by brunch broccoli chicken stuffed and popcorn chicken.
+				Chicken parm and popcorn chicken have large numbers of votes in the first few rankings, indicating
+				their broad popularity among students. Brunch broccoli chicken has many first-choice votes but few second-
+				or third-choice votes, indicating that it is more of a cult favorite.
+				Red spice chicken was only the fourth most popular first choice- around 16% of respondents named it as
+				their favorite HUDS chicken dish.
+			</div>
+		</div>
+
+		<div class="row chart-and-info">
+			<div class="col-md-7">
+				<div class="dropdown">
+
+					<label>Choose data:</label>
+
+					<select name="show" id="show" onchange="updateStackedVisualization()">
+						<option value="show-all">Show all</option>
+						<option value="top-5">Top 7</option>
+					</select>
+				</div>
+
+
+				<div class="chart-area" id="stacked_chart">
+				</div>
+			</div>
+			<div class="col-md-1">
+
+			</div>
+
+			<div class="col-md-4" class="chart-and-info" id="stacked_chart-legend">
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text">
+				However, simply considering the winner to be the most popular first choice ignores the
+				rest of the ranked votes in places 2-13. I applied a number of different ranked choice
+				vote-counting algorithms to the chicken data to see some potentially more representative
+				results.
+				<br><br>
+				Since some chicken dishes were added to the survey partway through and respondents were not
+				required to rank all dishes, some chicken dishes received more votes overall. I adjusted for this
+				fact by including normalized versions of the Borda and Dowdall methods, in which the result for
+				each dish is divided by the number of votes for that dish to create a sort of "average points per
+				vote" score that is independent of the number of total votes received.
+				<br><br>
+				Chicken parmesan outperforms all other chicken dishes in every vote-counting method, in
+				addition to receiving the most first-choice votes. Popcorn chicken and chicken tendies are second and third
+				in most cases. Brunch broccoli chicken sneaks into second place in the Dowdall normalized count,
+				since Dowdall gives greater advantage to dishes with more first-choice votes than the other methods.
+			</div>
+		</div>
+
+		<div class="row chart-and-info">
+			<div class="col-md-8">
+
+			<div class="dropdown">
+
+			<label>Vote-counting method:</label>
+
+			<select name="agg-methods" id="vote-method" onchange="updateVisualization()">
+				<option value="borna">Borda (non-normalized)</option>
+				<option value="borda_normalized">Borda (normalized)</option>
+				<option value="dowall">Dowdall (non-normalized)</option>
+				<option value="dowall_normalized">Dowdall (normalized)</option>
+				<option value="condorcet_count">Condorcet (non-normalized)</option>
+			</select>
+			</div>
+
+			<!-- Parent container for the bar charts -->
+			<div class="chart-area" id="barcharts">
+			</div>
+				
+			</div>
+
+			<!--<div class="col-md-1">-->
+
+			<!--</div>-->
+
+			<div class="col-md-4" id="alg-info">
+				<!--<p>this is where info will go about the voting methods</p>-->
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text">
+				Chicken parmesan was the winner no matter the vote-counting method. Chicken parm is my personal favorite so
+				I was happy to see this.
+				<br><br>
+				Out of the others, I'd say the rest of the top tier is
+				chicken tendies and popcorn chicken, and the middle tier is generally
+				brunch broccoli chicken, chicken nuggets, General Tso's chicken, and red spice chicken,
+				with the rest in the bottom tier.
+				<br><br>
+				The three top chickens- chicken parm, tendies, and popcorn chicken- are basically the same preparation
+				of chicken (breaded and fried) but in different sizes (chicken parm being the largest). Interestingly,
+				nuggets were less popular overall than either the smaller popcorn chicken or the larger tendies.
+				General Tso's chicken is just nuggets in a sauce so it makes sense that it performed similarly.
+				It can be concluded that chicken must be breaded and fried to produce a competitive dish,
+				but breading and frying is by no means a guarantee for victory- look at the mediocre performance
+				of fried buttermilk chicken. And breading alone is not enough- red spice chicken and broccoli stuffed
+				chicken were not as popular as their fried competitors.
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text">
+				In addition to the rankings, the survey also had an open-ended, optional comments section.
+				About a third of respondents chose to leave a comment. Here are some of their thoughts:<br><br>
+				<ul>
+					<li>bruh this was hard</li>
+					<li>butter chicken >>>>>>>>></li>
+					<li>BUTTER CHICKEN FTW!! (Also, this survey is amazing - I don't know you, but thanks for doing this!!)"</li>
+					<li>chicken tendies with hot sauce are incomprehensibly good, but i'd still die by chicken parmesan</li>
+					<li>do you have pictures? I can't believe it but I actually miss HUDS</li>
+					<li>Easy money buttermilk chicken for LIFE gotta get that GREEZE</li>
+					<li>Grilled chicken is the only reasonable answer</li>
+					<li>I expect a detailed report to be published at the end of this survey</li>
+					<li>i hate red spice chicken so much</li>
+					<li>I have a list of 28+ Different HUDS chicken dishes that I’ve been tracking over time and I am SO GRATEFUL someone made a survey for this at last</li>
+					<li>I love chicken</li>
+					<li>I think a good chicken parm beats a good chicken tender, but an average chicken tender beats an average chicken parm</li>
+					<li>I would do anything for huds chicken tendies right now</li>
+					<li>im vegetarian</li>
+					<li>Mmmm how much would I pay to eat that brunch broccoli chicken once again😭😭😭😭😭</li>
+					<li>popcorn chicken!</li>
+					<li>Red spice chicken!!!!!!!!</li>
+					<li>RED SPICY 4 LYFE</li>
+					<li>tbh i loved the chicken tikka masala and i think it should be on here</li>
+					<li>Tendies supreme</li>
+					<li>thank you for doing this very important work</li>
+					<li>the brunch chicken stuffed w broccoli is in my dreams every night i miss it so much</li>
+					<li>what abt the fried buttermilk chicken? that shit slapsss</li>
+					<li>why was this so hard to do</li>
+					<li>wow I never realized there were so many chickens :o</li>
+					<li>brunch chicken stuffed with broccoli is truly the woat.</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text">
+				According to this survey of about 130 Harvard students, red spice chicken is by no measure
+				the favorite HUDS chicken dish. The favorite chicken dish seems to be chicken parm,
+				with other highly-ranked dishes including tendies,
+				popcorn chicken, General Tso's chicken and brunch broccoli chicken, though others were also
+				competitive depending on the scoring criteria.
+				<br><br>
+				So now we know! I'm not sure how relevant this information is now, given that most
+				Harvard students won't be at school in the fall. I have already graduated so I probably
+				will never eat any of these dishes again. But one day, Harvard will open back up safely and fully,
+				and when they do, I hope they serve more chicken parm than they did when I was there.
+				<br><br>
+				I'd like to thank everyone who filled out the survey, permitting me to indulge in this random
+				pet project, and I hope you enjoyed learning about ranked-choice voting and HUDS chicken dishes
+				as much as I did. If you are a Harvard undergrad and you haven't filled out the survey, <a href="https://forms.gle/1yQBUTW3sttGboFc7">you still can!</a>
+				If a lot more people fill it out, I'll update the data here.
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 about-text" id="github">
+				Link to all code on Github including data
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- Load JS libraries: jQuery, bootstrap, D3 -->
+	<script src="chicken_js/jquery.min.js"></script>
+	<script src="chicken_js/popper.min.js"></script>
+	<script src="chicken_js/bootstrap.min.js"></script>
+	<script src="chicken_js/d3.min.js"></script>
+	<script src="chicken_js/queue.v1.min.js"></script>
+	<script src="chicken_js/legends.js"></script>
+	<script src="chicken_js/d3-tip.js"></script>
+
+	<script src="chicken_js/stacked_barchart.js"></script>
+	<script src="chicken_js/barchart.js"></script>
+	<script src="chicken_js/areachart.js"></script>
+	<script src="chicken_js/main.js"></script>
+</body>
+</html>
