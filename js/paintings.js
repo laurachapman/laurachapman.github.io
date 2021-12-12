@@ -1,1 +1,1 @@
-generateContent("paintings", "painting", 21);
+generateContent("paintings", "painting", 26);
